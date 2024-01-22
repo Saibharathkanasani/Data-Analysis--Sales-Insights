@@ -37,7 +37,9 @@
 1. Show total revenue in year 2020 in Chennai
 
     `SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date ON transactions.order_date=date.date where date.year=2020
-and transactions.market_code="Mark001";`
+and transactions.market_code="Mark001";
+
+
 **• Thorough Analysis:** I conducted an exhaustive analysis of the net sales performance, examining data across various dimensions, including year, customer, market, product, growth and division.
 
 **• Target Alignment:** Ensured alignment with the strategic objectives by closely scrutinizing market performance against predefined targets.
